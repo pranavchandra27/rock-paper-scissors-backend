@@ -39,6 +39,9 @@
     "exec": "node -r tsconfig-paths/register -r ts-node/register ./src/index.ts",
     "ext": "ts, js"
   },
+  "optionalDependencies": {
+    "fsevents": "2.1.2"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
