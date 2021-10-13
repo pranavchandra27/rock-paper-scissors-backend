@@ -24,7 +24,7 @@
   "scripts": {
     "start": "node src/index.ts",
     "dev": "nodemon src/index.ts",
-    "build": "tsc --project ./src"
+    "build": "tsc --project ."
   },
   "nodemonConfig": {
     "ignore": [
