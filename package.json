@@ -23,7 +23,7 @@
     "node": "14.16.0"
   },
   "scripts": {
-    "start": "node src/index.ts",
+    "start": "ts-node src/index.ts",
     "dev": "nodemon src/index.ts",
     "build": "tsc --project ."
   },
